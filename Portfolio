@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Cute Portfolio 🌸</title>
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f0fff4; 
+      font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+      color: #333;
+    }
+    .navbar {
+      background-color: #a8e6a3; 
+      border-radius: 0 0 20px 20px;
+    }
+    .navbar-brand, .nav-link {
+      color: #333 !important;
+      font-weight: bold;
+    }
+    .banner {
+      background: url("https://picsum.photos/1600/600?green,cute") no-repeat center center;
+      background-size: cover;
+      height: 55vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-bottom: 8px solid #a8e6a3;
+    }
+    .banner h1 {
+      font-size: 2.5rem;
+      background: rgba(255,255,255,0.7);
+      padding: 15px 25px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+    .section {
+      padding: 50px 0;
+    }
+    .card {
+      border-radius: 20px;
+      border: none;
+      background: #ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .card img {
+      border-radius: 20px 20px 0 0;
+    }
+    footer {
+      background-color: #a8e6a3;
+      color: #333;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+      border-radius: 20px 20px 0 0;
+    }
+    .btn-cute {
+      background-color: #90ee90;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 20px;
+    }
+    .btn-cute:hover {
+      background-color: #77dd77;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">🌸 My Portfolio 🌸</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header class="banner">
+    <div>
+      <h1>Hi! I'm a Student 🌱</h1>
+      <p class="mt-3">Future Cybersecurity Major ✨</p>
+    </div>
+  </header>
+
+  
+  <section id="about" class="section container text-center">
+    <h2>💚 About Me 💚</h2>
+    <p class="mt-3">
+      Hello! I'm a high school student with a big interest in computers, coding, and keeping people safe online.  
+      My dream is to study <strong>Cybersecurity</strong> and help protect the digital world 🌍🔒.  
+      For now, I’m just learning step by step — starting with little projects and web design like this!
+    </p>
+  </section>
+
+  
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <h2 class="text-center">🌼 My Projects 🌼</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\portfolio webpage.jpg.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">🌸 My Portfolio</h5>
+              <p class="card-text">This cute website I made using HTML, CSS, and Bootstrap!</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\WebPage.jpg.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">🐍 Python Basics</h5>
+              <p class="card-text">Practicing loops, variables, and fun mini-programs.</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://picsum.photos/400/200?cute3" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">🔒 Cyber Basics</h5>
+              <p class="card-text">Learning about strong passwords and safe online habits!</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="section container text-center">
+    <h2>🌷 Contact Me 🌷</h2>
+    <p class="mt-3">Wanna share study tips or chat about Cybersecurity? 💌</p>
+    <form class="mt-4" style="max-width: 500px; margin: auto;">
+      <div class="mb-3">
+        <input type="text" class="form-control rounded-pill" placeholder="Your Name ✨" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control rounded-pill" placeholder="Your Email 💌" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control rounded-4" rows="4" placeholder="Your Message 🌸" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-cute">Send 🌼</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>🌸 Made with love & dreams of Cybersecurity 💚 © 2025 🌸</p>
+  </footer>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
